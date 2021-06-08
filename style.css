@@ -1,0 +1,47 @@
+/*
+ * 画面のスタイルシート
+ */
+
+body{
+    font-family: "Note Sans JP", "Sans-serif";
+    margin: 0;
+    min-width: 1076px;
+}
+
+header {
+    border-bottom: 1px solid #E04444;
+}
+
+/*
+ * [headerタグ]のスタイルシート
+ */
+
+
+.header-icon{
+    list-style-type: none;
+    display: flex;
+}
+
+.header-icon li {
+    margin-right: 40px;
+    text-align: center;
+    
+}
+
+
+
+.header-icon img {
+    width: 20px;
+    
+}
+
+.header-icon p {
+    font-size: 5px;
+    border-bottom: dotted 2px;
+    line-height: 3;
+}
+
+
+
+
+
